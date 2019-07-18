@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int add_array(int *a, int *b, int n){
   int sum = 0;
@@ -11,7 +12,7 @@ int add_array(int *a, int *b, int n){
 }
 
 int main(int argc, char **argv) {
-  int *a, *b;
+  int *a=0, *b=0;
   int n = 3;
   int i, sum;
   for (i = 0; i < n; i++) {
